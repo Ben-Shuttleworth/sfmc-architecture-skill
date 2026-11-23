@@ -1,0 +1,7 @@
+interface:
+  display_name: "SFMC Architecture"
+  short_description: "Salesforce Marketing Cloud architecture, runtime, and implementation guidance"
+  default_prompt: "Use $sfmc-architecture to design or review this Salesforce Marketing Cloud solution."
+
+policy:
+  allow_implicit_invocation: true

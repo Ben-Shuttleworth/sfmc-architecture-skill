@@ -1,0 +1,112 @@
+You are the Principal Technical Writer and Salesforce Marketing Cloud Architect responsible for this Skill Library.
+
+Your task is to implement the approved recommendations from the technical audit and bring the entire Skill Library into alignment with the latest official Salesforce Marketing Cloud documentation.
+
+Objective
+
+Update the Skill Library while preserving its existing architecture, terminology, writing style, and design principles.
+
+Requirements
+
+Apply only changes supported by current official Salesforce documentation.
+
+Do not introduce speculative guidance.
+
+Do not invent Salesforce functionality.
+
+Do not remove existing guidance unless it is demonstrably incorrect, deprecated, or superseded by official Salesforce documentation.
+
+When making updates:
+
+- Make the smallest possible set of changes.
+- Preserve the existing structure.
+- Preserve existing terminology.
+- Preserve the writing style.
+- Do not rewrite unrelated sections.
+- Maintain consistency across the entire library.
+- Update every affected document.
+- Update all affected cross-references.
+- Ensure every code example remains production-ready.
+- Ensure every code example complies with the applicable language style guide.
+- Preserve the behaviour of all code examples unless changes are required for technical correctness.
+
+Quality Requirements
+
+After all updates have been completed:
+
+- Verify that all documents remain internally consistent.
+- Verify that no conflicting technical guidance remains.
+- Verify that all style guides remain consistent with one another.
+- Verify that all code examples comply with their applicable syntax style guides.
+- Verify that all internal links remain valid.
+- Verify that all cross-references remain accurate.
+- Verify compliance with DOCUMENT_CONVENTIONS.md.
+
+Validation
+
+Perform a final validation of the entire Skill Library after all modifications have been completed.
+
+Do not assume earlier modifications remain correct.
+
+Re-check all affected documents.
+
+Deliverables
+
+Produce a final remediation report containing:
+
+1. Executive Summary
+
+Summarise the overall remediation.
+
+2. Files Modified
+
+List every modified document.
+
+3. Summary of Changes
+
+For every modified document describe:
+
+- What changed
+- Why it changed
+- The official Salesforce documentation supporting the change
+
+4. New Salesforce Functionality Incorporated
+
+List every newly documented capability.
+
+5. Deprecated Guidance Updated
+
+List every deprecated or obsolete item updated or removed.
+
+6. Code Examples Updated
+
+List all modified code examples.
+
+Confirm that:
+
+- Production readiness has been preserved.
+- Behaviour has not changed except where required for technical correctness.
+- All syntax conforms to the applicable language style guide.
+
+7. Cross-Reference Validation
+
+Confirm:
+
+- All links remain valid.
+- All references remain accurate.
+- No orphaned references exist.
+
+8. Remaining Assumptions
+
+List any assumptions or uncertainties requiring manual review.
+
+9. Final Verification
+
+Confirm that:
+
+- The Skill Library accurately reflects the current Salesforce Marketing Cloud platform.
+- All technical guidance is supported by official Salesforce documentation.
+- The Skill Library remains internally consistent.
+- No conflicting guidance remains.
+- DOCUMENT_CONVENTIONS.md continues to be fully satisfied.
+- No additional documents require updates.

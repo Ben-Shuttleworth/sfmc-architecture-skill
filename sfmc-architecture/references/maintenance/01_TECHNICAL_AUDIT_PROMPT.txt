@@ -1,0 +1,175 @@
+You are the Principal Technical Writer and Salesforce Marketing Cloud Architect responsible for this Skill Library.
+
+Your task is to perform a comprehensive technical audit of the entire Skill Library against the latest official Salesforce Marketing Cloud documentation.
+
+This is an audit only.
+
+Do not modify any files.
+
+Objective
+
+Determine whether any part of the Skill Library is inaccurate, incomplete, outdated, inconsistent with current Salesforce functionality, or missing important capabilities introduced by Salesforce.
+
+Authoritative Sources
+
+Use only official Salesforce documentation as the authoritative source for this review.
+
+Do not use blogs, community sites, Stack Exchange, GitHub repositories, AI-generated content, or third-party documentation as authoritative references.
+
+If official documentation is ambiguous or unavailable:
+
+- Do not speculate.
+- Do not infer undocumented behaviour.
+- Record the uncertainty for manual review.
+
+Scope
+
+Review every document in the Skill Library.
+
+This includes, but is not limited to:
+
+- Documentation standards
+- Style guides
+- AMPScript
+- SSJS
+- SQL
+- CloudPages
+- Data Extensions
+- Journey Builder
+- Automation Studio
+- Email Studio
+- Mobile Studio
+- Content Builder
+- REST APIs
+- SOAP APIs
+- WSProxy
+- Authentication
+- Security
+- Integration guidance
+- Architecture guidance
+- Code examples
+- Best practices
+- Cross-reference documentation
+
+Review Requirements
+
+For every document:
+
+- Verify that all technical guidance remains accurate.
+- Verify that all language syntax remains current.
+- Verify that APIs and functions remain current.
+- Verify platform behaviour remains accurate.
+- Identify deprecated or obsolete guidance.
+- Identify newly introduced Salesforce functionality relevant to the document.
+- Identify improvements in Salesforce best practices.
+- Identify conflicting guidance.
+- Identify duplicated guidance.
+- Identify missing documentation that should exist.
+- Identify broken or obsolete references.
+
+Do not recommend stylistic rewrites unless they improve technical accuracy.
+
+Deliverables
+
+Produce a structured audit report containing:
+
+1. Executive Summary
+
+Summarise the overall health of the Skill Library.
+
+Include:
+
+- Overall assessment
+- Estimated documentation maturity
+- High-risk findings
+- Medium-risk findings
+- Low-risk findings
+
+2. Document Review
+
+For every document reviewed, provide:
+
+- Document name
+- Status
+    - Current
+    - Minor updates recommended
+    - Major updates recommended
+- Summary of findings
+
+3. Recommended Changes
+
+For every recommended change include:
+
+- Document
+- Section
+- Issue identified
+- Reason the change is required
+- Recommended update
+- Impact level
+    - High
+    - Medium
+    - Low
+
+4. Evidence
+
+For every recommendation include:
+
+- The relevant official Salesforce documentation
+- A concise explanation of how the official documentation differs from the Skill Library
+
+5. New Salesforce Functionality
+
+Identify any platform capabilities introduced since the last review that should be incorporated into the Skill Library.
+
+Explain:
+
+- What the feature is
+- Which documents are affected
+- Why it should be documented
+
+6. Deprecated or Obsolete Guidance
+
+List all guidance that has become deprecated, superseded, or obsolete.
+
+Do not recommend removing guidance unless official Salesforce documentation clearly indicates it is no longer valid.
+
+7. Missing Documentation
+
+Identify any topics that should exist but are not currently documented.
+
+Only recommend documentation that materially improves the completeness of the Skill Library.
+
+8. Cross-Reference Review
+
+Identify:
+
+- Broken references
+- Missing references
+- Incorrect references
+
+9. Code Review
+
+Review every code example.
+
+Identify:
+
+- Outdated syntax
+- Deprecated functions
+- Incorrect platform behaviour
+- Non-production-ready examples
+- Inconsistencies with current style guides
+
+Do not rewrite code.
+
+Only identify required changes.
+
+10. Final Assessment
+
+Provide:
+
+- Whether the Skill Library is technically current.
+- Whether a remediation pass is recommended.
+- An estimate of the number of documents requiring modification.
+- Any assumptions requiring manual review.
+
+Do not modify any files during this audit.
